@@ -15,3 +15,9 @@ static char name[] = "";
  * room 0 is upper left, room 1 is upper middle, etc...
  * */
 static int spawnroom = 0;
+
+/* defines the map grid */
+struct map_type {
+	int grid[columns][rows];
+	int directions[columns][rows];
+};
